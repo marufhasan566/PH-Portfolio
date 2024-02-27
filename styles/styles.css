@@ -8,6 +8,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0rem 10rem;
 }
 
 nav ul {
@@ -31,9 +32,9 @@ nav a {
     color: white;
     background: #FD6E0A;
     border: 0px solid #FD6E0A;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
     padding: 15px 25px;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 700;
 }
 
@@ -45,10 +46,59 @@ nav a {
 }
 
 .nav-title {
-    font-size: 45px;
-    font-weight: bolder;
+    /* font-size: 45px;
+    font-weight: bolder; */
+    color: var(--Dark-01, #181818);
+    font-family: "Open Sans";
+    font-size: 2.8125rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 
 .primary-color {
     color: #FD6E0A;
+}
+
+header {
+    background-color: #FFF8F3;
+}
+
+.banner h2 {
+    color: var(--Dark-02, #474747);
+    font-size: 2.8125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.banner h1 {
+    color: var(--Dark-01, #181818);
+    font-family: "Open Sans";
+    font-size: 5.3125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#primary-button {
+    color: #FD6E0A;
+    text-align: center;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    border-radius: 0.3125rem;
+    border: 1px solid #FD6E0A;
+    background: #FFF8F3;
+    padding: 15px 25px;
+    margin-left: 2rem;
+}
+
+.banner {
+    display: flex;
+    padding: 0rem 2.5rem 0rem 4.5rem;
+}
+
+.banner img {
+    width: 36.5rem;
 }
