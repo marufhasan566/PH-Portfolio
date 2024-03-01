@@ -179,3 +179,68 @@ header {
     font-weight: 700;
     line-height: 1.875rem;
 }
+
+.skills-intro {
+    text-align: center;
+    /* padding: 7rem; */
+    margin: 0 5rem 1rem 5rem;
+}
+
+.skills-intro h3 {
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 2.1875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.skills-intro p {
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.875rem;
+    /* 166.667% */
+}
+
+.skills-info {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 8rem 8rem;
+    text-align: justify;
+
+}
+
+.skill-details {
+    border-radius: 0.3125rem;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    margin: 1rem;
+    padding: 2rem;
+}
+
+.summary h2 {
+    text-align: center;
+    color: var(--Dark-01, #181818);
+    font-size: 2.1875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.summary-details {
+    display: flex;
+    margin: 0rem 10rem 5rem 10rem;
+    /* margin: 20rem; */
+
+}
+
+.education,
+.experience {
+    padding: 5rem;
+    text-align: justify;
+}
