@@ -278,8 +278,7 @@ footer {
     text-align: center;
 }
 
-.contact>input,
-textarea {
+.contact input {
     display: block;
     margin-bottom: 1rem;
     padding: 1rem 2rem;
